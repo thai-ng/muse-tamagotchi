@@ -1,0 +1,160 @@
+{
+  "activities": {
+    "dance": {
+      "clips": {
+        "exit": "assets/dance-exit.webm",
+        "loop": "assets/dance-loop.webm",
+        "start": "assets/dance-start.webm"
+      },
+      "gerund": "dancing"
+    },
+    "daydream": {
+      "clips": {
+        "exit": "assets/daydream-exit.webm",
+        "loop": "assets/daydream-loop.webm",
+        "start": "assets/daydream-start.webm"
+      },
+      "gerund": "daydreaming"
+    },
+    "draw": {
+      "clips": {
+        "exit": "assets/draw-exit.webm",
+        "loop": "assets/draw-loop.webm",
+        "start": "assets/draw-start.webm"
+      },
+      "gerund": "drawing"
+    },
+    "garden": {
+      "clips": {
+        "exit": "assets/garden-exit.webm",
+        "loop": "assets/garden-loop.webm",
+        "start": "assets/garden-start.webm"
+      },
+      "gerund": "gardening"
+    },
+    "nap": {
+      "clips": {
+        "exit": "assets/nap-exit.webm",
+        "loop": "assets/nap-loop.webm",
+        "start": "assets/nap-start.webm"
+      },
+      "gerund": "napping"
+    },
+    "read": {
+      "clips": {
+        "exit": "assets/read-exit.webm",
+        "loop": "assets/read-loop.webm",
+        "start": "assets/read-start.webm"
+      },
+      "gerund": "reading"
+    },
+    "stretch": {
+      "clips": {
+        "loop": "assets/exercise.webm"
+      },
+      "gerund": "stretching",
+      "loopOnly": true
+    }
+  },
+  "avatarImage": "assets/avatar.jpg",
+  "avatarKey": "YOUR_AVATAR_KEY_HEX",
+  "care": {
+    "exercise": {
+      "activity": "YOUR_EXERCISE",
+      "clip": "assets/exercise.webm",
+      "label": "doing YOUR_EXERCISE"
+    },
+    "feed": {
+      "clip": "assets/feed.webm",
+      "food": "YOUR_FOOD",
+      "label": "eating YOUR_FOOD"
+    },
+    "play": {
+      "clip": "assets/play.webm",
+      "game": "YOUR_GAME",
+      "label": "playing YOUR_GAME"
+    }
+  },
+  "clipsReady": false,
+  "companionName": "YOUR_COMPANION_NAME",
+  "decayMsPerPoint": {
+    "engagement": 1728000,
+    "fitness": 2592000,
+    "fullness": 864000
+  },
+  "gains": {
+    "exercise": 20,
+    "feed": 25,
+    "play": 25
+  },
+  "happyThreshold": 95,
+  "intentions": {
+    "dance": "Practicing a little dance",
+    "daydream": "Following a daydream",
+    "draw": "Working on a doodle",
+    "garden": "Looking after a little plant",
+    "nap": "Taking a cozy rest",
+    "quiet": "Having a quiet moment",
+    "read": "Finishing a little story",
+    "stretch": "Taking a movement break"
+  },
+  "moodEvery": 4,
+  "routineLines": {
+    "dance": {
+      "checkIn": "I'm practicing my little dance.",
+      "start": "Let's try that step again."
+    },
+    "daydream": {
+      "checkIn": "Seeing where this daydream goes.",
+      "start": "Hmm… what if…"
+    },
+    "draw": {
+      "checkIn": "Want to see what I'm drawing?",
+      "start": "I have an idea for a doodle."
+    },
+    "garden": {
+      "checkIn": "Look! My little plant is growing.",
+      "start": "A little water should help."
+    },
+    "nap": {
+      "checkIn": "Just a tiny cozy rest.",
+      "start": "I could use a little nap."
+    },
+    "quiet": {
+      "checkIn": "Just having a quiet moment.",
+      "start": "A little quiet time."
+    },
+    "read": {
+      "checkIn": "I found a good bit in this story.",
+      "start": "One more page…"
+    },
+    "stretch": {
+      "checkIn": "Just getting a little stretch in.",
+      "start": "Time to shake things out."
+    }
+  },
+  "routineOrder": [
+    "read",
+    "garden",
+    "draw",
+    "dance",
+    "stretch",
+    "daydream",
+    "nap"
+  ],
+  "seed": {
+    "engagement": 100,
+    "fitness": 100,
+    "fullness": 100,
+    "updatedAtMs": 0
+  },
+  "storageKey": "muse-companion-state-v1",
+  "timings": {
+    "episodeMs": 180000,
+    "interactionBufferMs": 12000,
+    "refillHideMs": 1000,
+    "routineBufferMs": 4000,
+    "speechBubbleMs": 3500,
+    "stateLoadTimeoutMs": 4000
+  }
+}
